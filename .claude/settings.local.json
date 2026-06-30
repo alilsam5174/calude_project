@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Write-Output \"=== py launcher ===\"; \\(Get-Command py -ErrorAction SilentlyContinue\\).Source; try { py --version 2>&1 } catch { \"no py\" }; Write-Output \"=== python3 ===\"; \\(Get-Command python3 -ErrorAction SilentlyContinue\\).Source; Write-Output \"=== git identity ===\"; git config --global user.name; git config --global user.email)"
+    ]
+  }
+}
